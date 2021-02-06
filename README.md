@@ -55,7 +55,7 @@ click http://www.li-zheng.net:8000/algorithms/symbol_FEM.html for more details.
 
 <h1><b>Demo</b></h1>
 This demo will show the solution of following problem and its <a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/5.png" /></a> error
-<a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/6.png" /></a>
+<a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/5-5.png" /></a>
 In 3-dimensional case, <a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/7.png" /></a> and<br>
 <a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/8.png" /></a>
 In 2-dimensional case,<br>
