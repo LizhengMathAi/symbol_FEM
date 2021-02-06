@@ -53,7 +53,6 @@ The process of solving PDEs in this system consists of five parts
 To be cautions, before using this system, check the <font style="color:red">weak formulations</font> and the <font style="color:red">type of interpolations</font> correctly are the most important things!
 
 
-
 <h1><b>Demo</b></h1>
 This demo will show the solution of following problem and its <a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/5.png" /></a> error
 <a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/6.png" /></a>
@@ -63,3 +62,5 @@ In 2-dimensional case,<br>
 <a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/9.png" /></a>
 However, I are not allow you to run such demo in my mini-amazon server, because these demos will consume tens GBs in memory.
 But you can try I by yourself, see my open source project on GitHub.
+<img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/2d.png" /><br>
+<img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/3d.png" />
