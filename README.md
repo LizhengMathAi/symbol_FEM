@@ -9,7 +9,7 @@ To construct this symbolic computation FEM System, two sub-targets are needed.
 </font><br>
 <ol>
     <li>For a given type of interpolation(for instance Lagrange or Hermite), the machine should have the ability to deduce its basis functions in any grid.</li>
-    <li>For a serial of shape functions ![](/src/1.png) in grid element $T$ and constant arrays $(\boldsymbol{a}, \boldsymbol{b}, \cdots)$, the machine should have the ability to deduce the result of following formula
+    <li>For a serial of shape functions ![](https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/1.png) in grid element $T$ and constant arrays $(\boldsymbol{a}, \boldsymbol{b}, \cdots)$, the machine should have the ability to deduce the result of following formula
     <p style="font-size:1.5vw">
     \begin{equation*}
         \int_{T}
