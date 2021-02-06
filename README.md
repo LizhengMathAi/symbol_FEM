@@ -9,8 +9,10 @@ To construct this symbolic computation FEM System, two sub-targets are needed.
 </font><br>
 <ol>
     <li>For a given type of interpolation(for instance Lagrange or Hermite), the machine should have the ability to deduce its basis functions in any grid.</li>
-    <li>For a serial of shape functions <a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/1.png" /></a> in grid element <a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/2.png" /></a> and constant arrays <a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/3.png" /></a>, the machine should have the ability to deduce the result of following formula<br>
-    <a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/4.png" /></a>
+    <li>For a serial of shape functions <a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/1.png" /></a> in grid element <a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/2.png" /></a> and constant arrays <a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/3.png" /></a>, the machine should have the ability to deduce the result of following formula
+        <center>
+        <a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/4.png" /></a>
+        </center>
     </li>
 </ol>
 In order to build the framework symbolic computation for FEM system, this software must consist of four parts
