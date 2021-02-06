@@ -9,18 +9,8 @@ To construct this symbolic computation FEM System, two sub-targets are needed.
 </font><br>
 <ol>
     <li>For a given type of interpolation(for instance Lagrange or Hermite), the machine should have the ability to deduce its basis functions in any grid.</li>
-    <li>For a serial of shape functions <a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/1.png" /></a> in grid element $T$ and constant arrays $(\boldsymbol{a}, \boldsymbol{b}, \cdots)$, the machine should have the ability to deduce the result of following formula
-    <p style="font-size:1.5vw">
-    \begin{equation*}
-        \int_{T}
-        \left[
-        \left( \prod_{\alpha_1 \cdots \alpha_{n_{\alpha}}} \boldsymbol{a}_{\alpha_1 \cdots \alpha_{n_{\alpha}}} \frac{\partial^{\alpha_1 + \cdots + \alpha_{n_{\alpha}}} \phi}{\partial \boldsymbol{x}_1^{\alpha_1} \cdots \partial \boldsymbol{x}_n^{\alpha_{n_{\alpha}}}} \right)
-        \left( \prod_{\beta_1 \cdots \beta_{n_{\beta}}} \boldsymbol{b}_{\beta_1 \cdots \beta_{n_{\beta}}} \frac{\partial^{\beta_1 + \cdots + \beta_{n_{\beta}}} \psi}{\partial \boldsymbol{x}_1^{\beta_1} \cdots \partial \boldsymbol{x}_n^{\beta_{n_{\beta}}}} \right)
-        \cdots
-        \right]
-        \mathrm{d} \boldsymbol{\sigma}
-    \end{equation*}
-    </p>
+    <li>For a serial of shape functions <a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/1.png" /></a> in grid element <a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/2.png" /></a> and constant arrays <a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/3.png" /></a>, the machine should have the ability to deduce the result of following formula
+    <a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/4.png" /></a>
     </li>
 </ol>
 In order to build the framework symbolic computation for FEM system, this software must consist of four parts
