@@ -357,7 +357,7 @@ def example_2d(path=None, degree=3, num_refine=3):
 
 if __name__ == "__main__":
     start_time = time.time()
-    example_3d(path="./3d.png", degree=2, num_refine=2)
-    # example_2d(path="./2d.png", degree=3, num_refine=3)
+    # example_3d(path="./3d.png", degree=2, num_refine=2)
+    example_2d(path="./2d.png", degree=1, num_refine=3)
     print("time consumption:", time.time() - start_time)
     plt.show()
