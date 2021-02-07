@@ -53,6 +53,10 @@ The process of solving PDEs in this system consists of five parts
 To be cautions, before using this system, check the <font style="color:red">weak formulations</font> and the <font style="color:red">type of interpolations</font> correctly are the most important things!
 click http://www.li-zheng.net:8000/algorithms/symbol_FEM.html for more details.
 
+<h1><b>Requirements</b></h1>
+numpy==1.19.2<br>
+scipy==1.5.2  // (Using scipy.spatial.Delaunay only)
+
 <h1><b>Demo</b></h1>
 This demo will show the solution of following problem and its <a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/5.png" /></a> error
 <a><img src="https://github.com/LizhengMathAi/symbol_FEM/blob/main/src/5-5.png" /></a>
