@@ -80,12 +80,6 @@ def example_3d(path=None, degree=3, num_refine=3):
     Problem:
         -\Delta u + \boldsymbol{c} \cdot \nabla u + u^2 = f, \quad \boldsymbol{x} \in \Omega
         u = g, \quad \boldsymbol{x} \in \partial \Omega
-
-    Combination of basis functions:
-        u_h = \sum_i (p_i \psi_i), \quad \psi_i \in P_1(T_h)
-
-    The weak form:
-        \sum_j ((\nabla \psi_i, \nabla \psi_j) + (\psi_i, \boldsymbol{c} \cdot \nabla \psi_j) + (\psi_i, \psi_j)) p_i = (\psi_i, f)
     """
     dim = 3
     def func_u(x): return np.exp(-np.sum(np.square(x), axis=1)) + np.sum(np.cos(x), axis=1)
@@ -244,13 +238,6 @@ def example_2d(path=None, degree=3, num_refine=3):
     Problem:
         -\Delta (\boldsymbol{c} \cdot \nabla u) + u^2 = f, \quad \boldsymbol{x} \in \Omega
         u = g, \quad \boldsymbol{x} \in \partial \Omega
-
-    Combination of basis functions:
-        u_h = \sum_i (p_i \psi_i^u), \quad \psi_i^u \in P_3(T_h)
-
-    The weak form:
-        \sum_j ((\nabla \psi_i^u, \nabla \psi_j^u) + (\psi_i^u, \psi_j^u)) p_j + \sum_k (\psi_i^u, \psi_k^v) q_k = (\psi_i^u, f)
-        \sum_j (\psi_i^v, \boldsymbol{c} \cdot \nabla \psi_j^u) p_j - \sum_k (\psi_i^v, \psi_k^v) q_k = 0
     """
     dim = 2
     def func_u(x): return np.exp(-np.sum(np.square(x), axis=1)) + np.sum(np.cos(x), axis=1)
